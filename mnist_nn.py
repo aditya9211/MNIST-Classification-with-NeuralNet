@@ -41,6 +41,7 @@ def load_training(train, pca = False, deskew = True):
     X = np.array(X)  
     y = np.array(y)
 
+    ## OpenCV is needed when deskew is set to True
     if deskew:
 	X = deskewing(X)
 
@@ -70,6 +71,7 @@ def load_testing(test, U, pca = False, deskew = True):
     X = np.array(X)  
     y = np.array(y)
 
+    ## OpenCV is needed when deskew is set to True
     if deskew:
 	X = deskewing(X)
 
