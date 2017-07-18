@@ -33,4 +33,4 @@ before it was 98.4% simple 3 Layer Neural Nets.**
 
 *Run as :*
 
-`python mnist_nn.py  --path  '/home/......'
+`python mnist_nn.py  --path  '/home/......'`
