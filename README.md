@@ -26,11 +26,11 @@ before it was 98.4% simple 3 Layer Neural Nets.**
 **We have used the Backprop Algorithm for Training using the SGD Optimizer with Momentum .
   Applied PCA Dimensionality Reduction Technique to reduce the dimension to make dataset smaller, using 324 components to         retain 99.78% variance of input data images**
 
-`Need the Dataset that are for training in separate folder and one with test in other folder`
+`Need the Dataset that are for training and testing in one folder`
 
 
 
 
 *Run as :*
 
-`python mnist_nn.py  --train  '/home/......'  --test  '/home/.......'`
+`python mnist_nn.py  --path  '/home/......'
