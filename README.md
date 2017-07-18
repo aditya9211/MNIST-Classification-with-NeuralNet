@@ -11,17 +11,13 @@ before it was 98.4% simple 3 Layer Neural Nets.
 ## Here the Dependencies Required for Running the Code:
 1. Python 2.7xx
 2. Numpy, scipy, matplotlib Library Installed 
-2. OpenCV 3.xx, MNIST for reading data  **pip install mnist**
+2. OpenCV 3.xx, "MNIST" for reading data  **pip install mnist**
 
-Code are segmented as follows:
-
-1. Execute :
-    **mnist_nn.py**
 
 `Our Model has 3 Layers`
 `Containing`
 ```
- 1 Input Layer -> 100*100 U
+ 1 Input Layer -> 28*28 U
  
  1 Hidden Layer -> 300 HU
  
@@ -34,4 +30,4 @@ Code are segmented as follows:
 
 Run as :
 
-**python train.py  --train  '/home/......'  --test  '/home/.......'**
+`python train.py  --train  '/home/......'  --test  '/home/.......'**`
