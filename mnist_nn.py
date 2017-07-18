@@ -287,10 +287,8 @@ def random_shuffle(X, y, y_new, seed=10):
 
 # Construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
-ap.add_argument("-train_path", "--train", required=True,
-	help="path to input directory of MNIST Train dataset")
-ap.add_argument("-test_path", "--test", required = True,
-	help="path to input directory of MNIST Test dataset")
+ap.add_argument("-path", "--path", required=True,
+	help="path to input directory of MNIST dataset")
 args = vars(ap.parse_args())
 
 ## Getting the Same Result in Shuffle in each Run.
@@ -298,13 +296,12 @@ seed = 10
 np.random.seed(seed)
 
 ## Creating Path Variable 
-train = args["train"]
-test = args["test"]
+path = args["path"]
 
 ## Loading MNIST Dataset
 print 'Fetching Data ..........'
-X, y, U = load_training(train, pca=True)
-X_test, y_test = load_testing(test, U, pca=True)
+X, y, U = load_training(path, pca=True)
+X_test, y_test = load_testing(path, U, pca=True)
 
 ## Parameters for Model
 max_iter = 50
