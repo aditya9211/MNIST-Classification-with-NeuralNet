@@ -29,6 +29,8 @@ before it was 98.4% simple 3 Layer Neural Nets.**
 `Need the Dataset that are for training in separate folder and one with test in other folder`
 
 
+
+
 *Run as :*
 
 `python mnist_nn.py  --train  '/home/......'  --test  '/home/.......'**`
