@@ -30,4 +30,5 @@ before it was 98.4% simple 3 Layer Neural Nets.**
 3. OpenCV 3.xx, "MNIST" for reading data. Eg.  **pip install mnist**
 
 `Run:`
-```python mnist_nn.py  --path  '/home/......'```
+```ruby
+python mnist_nn.py  --path  '/home/......'```
