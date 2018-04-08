@@ -8,12 +8,7 @@ MNIST Handwritten Digits Classification using 3 Layer Neural Net  98.7% Accuracy
 **Accuracy was 98.7% after deskewing the images
 before it was 98.4% simple 3 Layer Neural Nets.**
 
-## Here the Dependencies Required for Running the Code:
-1. Python 2.7xx
-2. Numpy, scipy, matplotlib Library Installed 
-2. OpenCV 3.xx, "MNIST" for reading data. Eg.  **pip install mnist**
-
-
+## Neural Network Model
 `Our Model has 3 Layers`
 `Containing`
 ```
@@ -29,8 +24,10 @@ before it was 98.4% simple 3 Layer Neural Nets.**
 `Need the Dataset that are for training and testing in one folder`
 
 
+## Dependencies Required:
+1. Python 2.7xx
+2. Numpy, scipy, matplotlib Library Installed 
+3. OpenCV 3.xx, "MNIST" for reading data. Eg.  **pip install mnist**
 
-
-*Run as :*
-
-`python mnist_nn.py  --path  '/home/......'`
+`Run:`
+```python mnist_nn.py  --path  '/home/......'```
